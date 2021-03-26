@@ -2,9 +2,9 @@
 
 <img width="120px" src="https://wiki.idem.garr.it/IDEM_Approved.png" />
 
-:warning: **This HOWTO has been freezed to a version compatible with the Shibboleth Migration Course occurred in the last part of 2020.** :warning:
+### This HOWTO has been freezed to a version compatible with the Shibboleth Migration Course occurred in the last part of 2020
 
-Please, refer to https://github.com/ConsortiumGARR/idem-tutorials to obtain the last working HOWTOs for your IdPs and SPs.
+Please, refer to https://github.com/ConsortiumGARR/idem-tutorials to obtain the last working HOWTOs for IdP and SP.
 
 ## Table of Contents
 
