@@ -264,7 +264,7 @@ Jetty is a Web server and a Java Servlet container. It will be used to run the I
    * `systemctl restart jetty.service`
 
 5. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 ## Configuration Instructions
 
@@ -329,7 +329,7 @@ If you don't change anything, the IdP stores data locally within the user's brow
 See the configuration files and the Shibboleth documentation for details.
 
 Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 #### Strategy B - JPA Storage Service - using a database
 
@@ -432,7 +432,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 11. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 ### Configure the Directory (openLDAP or AD) Connection
 
@@ -717,7 +717,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 5. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 
 ### Configure Shibboleth Identity Provider to release the persistent NameID
@@ -772,7 +772,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 4. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 #### Strategy B - Stored mode - using a database
 
@@ -891,7 +891,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 11. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 ### Configure the attribute resolver (sample)
 
@@ -915,7 +915,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 3. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 ### Configure Shibboleth Identity Provider to release the eduPersonTargetedID
 
@@ -961,7 +961,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 5. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 #### Strategy B - Stored mode - using the persistent NameID database
 
@@ -1002,7 +1002,7 @@ This Storage service will memorize User Consent data on persistent database SQL.
    * `systemctl restart jetty.service"`
 
 4. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 ### Configure the attribute resolution with Attribute Registry
 
@@ -1248,7 +1248,7 @@ Translate the IdP messages in your language:
    * `systemctl restart jetty.service`
    
 5. Check IdP Status:
-   * `bash /opt/shibboleth-idp/bin/status.sh`
+   * `bash /opt/shibboleth-idp/bin/status.sh -u http://localhost:8080/idp`
 
 ### Register the IdP on the IDEM Test Federation
 
